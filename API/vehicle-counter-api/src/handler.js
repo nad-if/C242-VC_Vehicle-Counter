@@ -1,4 +1,4 @@
-const { getAllVehicleData, getAllVehicleByDateRange } = require("./firestore");
+const { getAllVehicleData, getAllVehicleByDateRange, saveVehicleData } = require("./firestore");
 
 const getAllHistoricalData = async (req, res) => {
   try {
@@ -32,4 +32,23 @@ const getHistoricalByDateRange = async (req, res) => {
   }
 };
 
-module.exports = { getAllHistoricalData, getHistoricalByDateRange };
+const saveDataToFirestore = async (req, res) => {
+  try {
+    const { vehicleData } = req.body;
+
+    if (!vehicleData || typeof vehicleData !== "object") {
+      return res.status(400).json({
+        error: "Data kendaraan harus diberikan dalam format JSON",
+      });
+    }
+
+    await saveVehicleData(vehicleData);
+
+    res.status(200).json({ status: "success", message: "Data save successfully" });
+  } catch (error) {
+    console.error("Error saving data to Firestore:", error);
+    res.status(500).json({ error: error.message });
+  }
+}
+
+module.exports = { getAllHistoricalData, getHistoricalByDateRange, saveDataToFirestore };
