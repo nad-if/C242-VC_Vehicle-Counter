@@ -1,7 +1,7 @@
 ## Bangkit 2024 batch 2 Company Capston
 <h3>welcome to Vecount</h3>
 
-![Logo ](github_asset/)
+![Logo ](assets/)
 
 Our project is developing a real-time vehicle counting system using machine learning and cloud computing to provide accurate traffic data across diverse conditions. This solution aims to support traffic management, urban planning, and infrastructure development by delivering reliable, scalable insights for decision-making.
 
@@ -11,12 +11,12 @@ Our project is developing a real-time vehicle counting system using machine lear
 
 | Name                     | Bangkit ID    | Learning Path       | GitHub Link                               |
 |--------------------------|---------------|---------------------|-------------------------------------------|
-| Nadif Aulia Putra    |  M002B4KY3201 | Machine Learning    | [GitHub Profile](https://github.com/)  |
-| Hanny Margaretha Aritonang| M002B4KX1720  | Machine Learning    | [GitHub Profile](https://github.com/)  |
+| Nadif Aulia Putra    |  M002B4KY3201 | Machine Learning    | [GitHub Profile](https://github.com/nad-if)  |
+| Hanny Margaretha Aritonang| M002B4KX1720  | Machine Learning    | [GitHub Profile](https://github.com/hannyaritra)  |
 | William Surya Putra      | M008B4KY4486   | Machine Learning    | [GitHub Profile](https://github.com/)|
 | Ariqah Maulia Listiani   |  M002B4KX0652   | Machine Learning     | [GitHub Profile](https://github.com/)|
 | Soultan Amirul Mukminin    | C156B4KY4196   | Cloud Computing     | [GitHub Profile](https://github.com/soul222)   |
-| Berka Aldizar  | C184B4KY0839   | Cloud Computing  | [GitHub Profile](https://github.com/)|
+| Berka Aldizar  | C184B4KY0839   | Cloud Computing  | [GitHub Profile](https://github.com/brrrka)|
 
 
 # Project Documentation
@@ -27,11 +27,11 @@ Our project is developing a real-time vehicle counting system using machine lear
 <body>
   <div style="display: flex; justify-content: space-between;">
 <h5>Screen Shoot Web APP</h5>
-  <img src="github_asset/" alt="Screenshot 1">
-  <img src="github_asset/" alt="Screenshot 2">
-  <img src="github_asset/" alt="Screenshot 3">
-  <img src="github_asset/" alt="Screenshot 4">
-  <img src="github_asset/" alt="Screenshot 4">
+  <img src="assets/" alt="Screenshot 1">
+  <img src="assets/" alt="Screenshot 2">
+  <img src="assets/" alt="Screenshot 3">
+  <img src="assets/" alt="Screenshot 4">
+  <img src="assets/" alt="Screenshot 4">
   </div>
   <br>
   <div style="display: flex; justify-content: space-between;">
@@ -89,32 +89,33 @@ Our project is developing a real-time vehicle counting system using machine lear
     </tr>
   </table>
   <br>
-  <img src="github_asset/" alt="cc" width="595" height="295">
+  <img src="assets/" alt="cc" width="595" height="295">
   </div>
 </body>
 </html>
 <br>
 
 # Tech Stacks
+
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo" />
-<img width="15" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="45" alt="tailwindcss logo"/>
-<img width="15" />
-<img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo" />
-<img width="15" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45" alt="pandas logo" />
-<img width="15" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="45" alt="numpy logo" />
-<img width="15" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="45" alt="tensorflow logo" />
-<img width="15" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" alt="python logo" />
-<img width="15" />
-<img src="https://skillicons.dev/icons?i=supabase" height="45" alt="supabase logo" />
-<img width="15" />
-<img src="https://skillicons.dev/icons?i=firebase" height="45" alt="firebase logo" />
-<div>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="45" alt="react logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="45" alt="tailwindcss logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge" height="45" alt="express logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" height="45" alt="pandas logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge" height="45" alt="numpy logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=black&style=for-the-badge" height="45" alt="tensorflow logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/Google Cloud-4285F4?logo=googlecloud&logoColor=white&style=for-the-badge" height="45" alt="googlecloud logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=black&style=for-the-badge" height="45" alt="supabase logo"  />
+  <img width="15" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" height="45" alt="firebase logo"  />
+</div>
   
 </div>
 </div>
