@@ -96,7 +96,28 @@ Our project is developing a real-time vehicle counting system using machine lear
 <br>
 
 # Tech Stacks
-<img src="github_asset/" alt="cc" width="1080">
+<div align="center">
+<img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo" />
+<img width="15" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="45" alt="tailwindcss logo"/>
+<img width="15" />
+<img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo" />
+<img width="15" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45" alt="pandas logo" />
+<img width="15" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="45" alt="numpy logo" />
+<img width="15" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="45" alt="tensorflow logo" />
+<img width="15" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" alt="python logo" />
+<img width="15" />
+<img src="https://skillicons.dev/icons?i=supabase" height="45" alt="supabase logo" />
+<img width="15" />
+<img src="https://skillicons.dev/icons?i=firebase" height="45" alt="firebase logo" />
+<div>
+  
+</div>
+</div>
 
 # How use this app?
 
