@@ -37,7 +37,7 @@ Our project is developing a real-time vehicle counting system using machine lear
   <div style="display: flex; justify-content: space-between;">
   <h3> Cloud computing (CC) : </h3>
   <h5> cloud computing architecture design</h5>
-  <img src="github_asset/" alt="cc" width="482" height="155">
+  <img src="assets/ArsitekturCloudComputing.jpg" alt="cc" width="482" height="155">
   </div>
   <br>
   <div style="display: flex; justify-content: space-between;">
