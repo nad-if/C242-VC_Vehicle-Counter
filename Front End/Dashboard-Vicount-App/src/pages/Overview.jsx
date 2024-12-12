@@ -33,7 +33,7 @@ const Overview = () => {
 
   const MQTT_BROKER = 'wss://wa518485.ala.asia-southeast1.emqxsl.com:8084/mqtt';
   const MQTT_TOPIC = 'counter/vehicles';
-  const API_ENDPOINT = "http://localhost:3000/api/vehicle/save";
+  const API_ENDPOINT = "https://v-count-api-660543800145.asia-southeast1.run.app/api/vehicle/save";
 
 
   const saveDataToFirestore = async (data) => {

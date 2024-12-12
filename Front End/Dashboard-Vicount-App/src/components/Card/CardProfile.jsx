@@ -6,7 +6,7 @@ const CardProfile = ({ userProfile }) => {
       <div className="relative flex flex-col min-w-0 break-words bg-white border-0 shadow dark:bg-slate-850 dark:shadow-dark-xl rounded-xl bg-clip-border">
         <img
           className="w-full rounded-t-xl"
-          src="./src/assets/curved-images/curved0.jpg"
+          src="/assets/curved-images/curved0.jpg"
           alt="profile cover image"
         />
         <div className="flex flex-wrap justify-center -mx-3 rounded-t-xl">
@@ -15,7 +15,7 @@ const CardProfile = ({ userProfile }) => {
               <Link to="#">
                 <img
                   className="w-56 mx-auto border-2 border-white border-solid rounded-full object-cover"
-                  src="./src/assets/profile/bruce-mars.jpg"
+                  src="/assets/profile/bruce-mars.jpg"
                   alt="profile image"
                 />
               </Link>

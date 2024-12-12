@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components Page
-import Sidebar from "../../components/Sidebar/Sidebar";
+import Sidebar from "../../components/SideBar/SideBar";
 import Header from "../../components/Header/Header";
 import Overview from "../Overview";
 import Users from "../Users";
@@ -15,7 +15,7 @@ const Dashboard = () => {
   return (
     <div className="flex h-screen bg-gray-50">
       <Sidebar />
-      
+
       <main className="flex-1 overflow-hidden flex flex-col min-h-screen">
         <Header />
         <div className="flex-1 p-6 overflow-auto">

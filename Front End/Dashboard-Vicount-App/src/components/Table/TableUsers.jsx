@@ -53,13 +53,12 @@ const TableUser = ({ UsersData, onDelete }) => {
                 </td>
                 <td className="py-3 px-5 border-b border-blue-gray-50">
                   <div
-                    className={`relative grid items-center font-sans uppercase whitespace-nowrap select-none bg-gradient-to-tr ${
-                      author.status === "Online"
+                    className={`relative grid items-center font-sans uppercase whitespace-nowrap select-none bg-gradient-to-tr ${author.status === "Online"
                         ? "from-green-600 to-green-400" // Hijau untuk online
                         : author.status === "Offline"
-                        ? "from-red-600 to-red-400" // Merah untuk offline
-                        : "from-gray-600 to-gray-400" // Default jika status lain
-                    } text-white rounded-lg py-0.5 px-2 text-[11px] font-medium w-fit`}
+                          ? "from-red-600 to-red-400" // Merah untuk offline
+                          : "from-gray-600 to-gray-400" // Default jika status lain
+                      } text-white rounded-lg py-0.5 px-2 text-[11px] font-medium w-fit`}
                   >
                     <span>{author.status}</span>
                   </div>

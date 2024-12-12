@@ -1,7 +1,7 @@
 const UsersData = [
   {
     id: 1, // Tambahkan ID unik
-    imgSrc: "./src/assets/logo.png",
+    imgSrc: "/assets/logo.png",
     name: "John Michael",
     phone: "+62 83896463699",
     email: "john@creative-tim.com",
@@ -12,7 +12,7 @@ const UsersData = [
   },
   {
     id: 2, // Tambahkan ID unik
-    imgSrc: "./src/assets/logo.png",
+    imgSrc: "/assets/logo.png",
     name: "Alexa Liras",
     phone: "+62 83896463699",
     email: "alexa@creative-tim.com",
