@@ -73,4 +73,8 @@ const saveVehicleData = async (vehicleData) => {
   }
 }
 
+<<<<<<< HEAD
 module.exports = { getAllVehicleData, getAllVehicleByDateRange, saveVehicleData };
+=======
+module.exports = { getAllVehicleData, getAllVehicleByDateRange, saveVehicleData };
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9

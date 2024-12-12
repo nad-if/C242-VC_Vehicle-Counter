@@ -32,7 +32,11 @@ const Header = () => {
               <div className="text-xs text-gray-500">Cloud Engineer</div>
             </div>
             <img
+<<<<<<< HEAD
               src="/logo.svg"
+=======
+              src="./src/assets/logo.png"
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
               alt="User"
               className="h-8 w-8 rounded-full"
             />

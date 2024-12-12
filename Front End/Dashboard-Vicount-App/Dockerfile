@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gunakan image Node.js untuk build aplikasi
 FROM node:18 AS build
 
@@ -25,3 +26,15 @@ COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
+=======
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY package* .
+RUN npm i
+
+COPY . .
+
+CMD [ "npm", "run", "dev" ]
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9

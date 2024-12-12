@@ -17,7 +17,11 @@ const DataOverview = () => {
     }
 
     try {
+<<<<<<< HEAD
       const response = await axios.get("https://v-count-api-660543800145.asia-southeast1.run.app/api/vehicle/range", {
+=======
+      const response = await axios.get("http://localhost:3000/api/vehicle/range", {
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
         params: {
           startDate: startDate.toISOString().split("T")[0],
           endDate: endDate.toISOString().split("T")[0],

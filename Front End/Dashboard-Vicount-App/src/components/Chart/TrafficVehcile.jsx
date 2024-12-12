@@ -15,6 +15,7 @@ const TrafficVehicle = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
+<<<<<<< HEAD
   const fetchData = async () => {
     setLoading(true);
     try {
@@ -42,6 +43,34 @@ const TrafficVehicle = () => {
   };
 
   useEffect(() => {
+=======
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/api/vehicle');
+        const apiData = response.data.data;
+
+        console.log("Raw API Data:", apiData);
+
+        const transformedData = apiData.map((item) => ({
+          time: new Date(item.date.seconds * 1000).toLocaleDateString(),
+          total: Number(item.totalCount) || 0,
+          car: Number(item.car) || 0,
+          truck: Number(item.truck) || 0,
+          motorcycle: Number(item.motorcycle) || 0,
+          bus: Number(item.bus) || 0,
+          bicycle: Number(item.bicycle) || 0,
+        }));
+
+        setData(transformedData);
+        setLoading(false);
+      } catch (error) {
+        console.error("Failed to fetch data", error);
+        setLoading(false);
+      }
+    };
+
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
     fetchData();
   }, []);
 
@@ -52,12 +81,15 @@ const TrafficVehicle = () => {
   return (
     <div className="bg-white shadow-lg rounded-xl p-6 lg:col-span-2">
       <h2 className="text-xl font-semibold mb-4">Traffic Vehicle Trend</h2>
+<<<<<<< HEAD
       <button
         onClick={fetchData}
         className="mb-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
       >
         Refresh Data
       </button>
+=======
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
       <div className="h-80">
         <ResponsiveContainer>
           <LineChart data={data}>
@@ -115,4 +147,8 @@ const TrafficVehicle = () => {
   );
 };
 
+<<<<<<< HEAD
 export default TrafficVehicle;
+=======
+export default TrafficVehicle;
+>>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
