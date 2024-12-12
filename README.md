@@ -13,7 +13,7 @@ Our project is developing a real-time vehicle counting system using machine lear
 |--------------------------|---------------|---------------------|-------------------------------------------|
 | Nadif Aulia Putra    |  M002B4KY3201 | Machine Learning    | [GitHub Profile](https://github.com/nad-if)  |
 | Hanny Margaretha Aritonang| M002B4KX1720  | Machine Learning    | [GitHub Profile](https://github.com/hannyaritra)  |
-| William Surya Putra      | M008B4KY4486   | Machine Learning    | [GitHub Profile](https://github.com/)|
+| William Surya Putra      | M008B4KY4486   | Machine Learning    | [GitHub Profile](https://github.com/williamsuryap)|
 | Ariqah Maulia Listiani   |  M002B4KX0652   | Machine Learning     | [GitHub Profile](https://github.com/)|
 | Soultan Amirul Mukminin    | C156B4KY4196   | Cloud Computing     | [GitHub Profile](https://github.com/soul222)   |
 | Berka Aldizar  | C184B4KY0839   | Cloud Computing  | [GitHub Profile](https://github.com/brrrka)|
