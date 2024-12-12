@@ -1,14 +1,15 @@
 const express = require("express");
-const { getAllHistoricalData, getHistoricalByDateRange } = require("./handler");
+const cors = require("cors");
+const routes = require("./routes");
+const app = express();
+const PORT = 3000;
 
-const router = express.Router();
+app.use(cors());
 
-router.get(`/vehicle`, getAllHistoricalData);
+app.use(express.json());
 
-/**
- * Endpoint untuk mendapatkan data berdasarkan rentang waktu
- * Contoh: GET /api/vehicle/range?startDate=2024-11-01&endDate=2024-11-20
- */
-router.get(`/vehicle/range`, getHistoricalByDateRange);
+app.use("/api", routes);
 
-module.exports = router;
+app.listen(PORT, () => {
+  console.log(`Server berhasil running di http://localhost:${PORT}`);
+});
