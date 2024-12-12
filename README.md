@@ -1,5 +1,5 @@
-## Bangkit 2024 batch 2 Company Capston
-<h3>welcome to Vecount</h3>
+## Bangkit 2024 batch 2 Company Track Capstone
+<h3>welcome to V-Count</h3>
 
 ![Logo ](assets/)
 
@@ -7,7 +7,7 @@ Our project is developing a real-time vehicle counting system using machine lear
 
 # Our Team
 
-### Team ID: C242-VC
+### Team ID: C242-VC02
 
 | Name                     | Bangkit ID    | Learning Path       | GitHub Link                               |
 |--------------------------|---------------|---------------------|-------------------------------------------|
