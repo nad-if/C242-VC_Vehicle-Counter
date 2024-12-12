@@ -1,15 +1,12 @@
 const express = require("express");
-const cors = require("cors");
-const routes = require("./routes");
-const app = express();
-const PORT = 3000;
+const { getAllHistoricalData, getHistoricalByDateRange, saveDataToFirestore } = require("./handler");
 
-app.use(cors());
+const router = express.Router();
 
-app.use(express.json());
+router.get(`/vehicle`, getAllHistoricalData);
 
-app.use("/api", routes);
+router.get(`/vehicle/range`, getHistoricalByDateRange);
 
-app.listen(PORT, () => {
-  console.log(`Server berhasil running di http://localhost:${PORT}`);
-});
+router.post(`/vehicle/save`, saveDataToFirestore);
+
+module.exports = router;
