@@ -28,7 +28,7 @@ const SideBar = () => {
             }`}
         >
           <img
-            src="/logo.svg"
+            src="/logo.png"
             className={`cursor-pointer duration-500 ${open && "rotate-[360deg]"
               } w-12 rounded-full`}
             alt="Logo"
