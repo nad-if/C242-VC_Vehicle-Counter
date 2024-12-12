@@ -2,11 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Components Page
-<<<<<<< HEAD
 import Sidebar from "../../components/SideBar/SideBar";
-=======
-import Sidebar from "../../components/Sidebar/Sidebar";
->>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
 import Header from "../../components/Header/Header";
 import Overview from "../Overview";
 import Users from "../Users";
@@ -19,11 +15,6 @@ const Dashboard = () => {
   return (
     <div className="flex h-screen bg-gray-50">
       <Sidebar />
-<<<<<<< HEAD
-
-=======
-      
->>>>>>> 4703ff002f059ab87ddba50302e3eeaae55875b9
       <main className="flex-1 overflow-hidden flex flex-col min-h-screen">
         <Header />
         <div className="flex-1 p-6 overflow-auto">
